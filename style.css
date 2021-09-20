@@ -1,0 +1,162 @@
+body{
+
+}
+
+
+
+  .contenedor{
+
+margin: 100px;
+     width: 1440px;
+     height: 800px;
+     background-color: white;
+  }
+
+
+.naranja {
+
+  position: absolute;
+  width: 360px;
+  height: 600px;
+  left:300px;
+  top:200px;
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px
+}
+.sedan{
+  position: absolute;
+  top:30px;
+  left:25px;
+  line-height: 1.8;
+}
+
+h1{
+  position: absolute;
+  top:80px;
+  left:25px;
+  font-weight: 700;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 45px;
+  color: hsla(0, 0%, 100%, 0.75)
+}
+
+
+p{
+  position: relative;
+  display: inline-block;
+  width: 220px;
+  padding-top: 35px;
+  letter-spacing: 1px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  top:150px;
+  left:25px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.verde {
+
+  position: absolute;
+  width: 360px;
+  height: 600px;
+  left:650px;
+  top:200px;
+  background-color: hsl(184, 100%, 22%);
+}
+.suv{
+  position: absolute;
+  top:30px;
+  left:25px;
+  line-height: 1.8;
+}
+
+
+.ocre {
+
+  position: absolute;
+  width: 360px;
+  height: 600px;
+  left:1010px;
+  top:200px;
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.lux{
+  position: absolute;
+  top:30px;
+  left:25px;
+  line-height: 1.8;
+}
+
+.ovalo{
+display: inline;
+left:55px;
+bottom: 80px;
+padding: 20px 40px;
+border-radius: 30px;
+border-color: white;
+border-width: thin;
+border-style: solid;
+  width: 90px;
+  height: 15px;
+  background-color: white;
+  transition: background-color .5s;
+  font-family: 'Lexend Deca', sans-serif;
+position: absolute;
+  font-size: 15px;
+color:hsl(31, 77%, 52%);
+  }
+
+
+.ovalo:hover{
+  background-color: hsl(31, 77%, 52%);
+color: white;
+}
+
+.ovalov:hover{
+  background-color: hsl(184, 100%, 22%);
+color: white;
+}
+
+.ovaloo:hover{
+  background-color: hsl(179, 100%, 13%);
+color: white;
+}
+
+.ovalov{
+display: inline;
+left:55px;
+bottom: 80px;
+padding: 20px 40px;
+border-color: white;
+border-width: thin;
+border-style: solid;
+border-radius: 30px;
+  width: 90px;
+  height: 15px;
+  background-color: white;
+  font-family: 'Lexend Deca', sans-serif;
+position: absolute;
+  font-size: 15px;
+  color: hsl(184, 100%, 22%);
+}
+
+.ovaloo{
+display: inline;
+left:55px;
+bottom: 80px;
+padding: 20px 40px;
+border-color: white;
+border-width: thin;
+border-style: solid;
+border-radius: 30px;
+  width: 90px;
+  height: 15px;
+  background-color: white;
+  font-family: 'Lexend Deca', sans-serif;
+position: absolute;
+  font-size: 15px;
+  color: hsl(179, 100%, 13%);
+}
